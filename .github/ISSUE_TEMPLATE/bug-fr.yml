@@ -1,0 +1,58 @@
+name: Signaler un bug (francais)
+description: Decrire un probleme reproductible dans RAIL Studio.
+body:
+  - type: markdown
+    attributes:
+      value: "Ce ticket est public. Ne pas joindre de projet, scenario, dump de crash ou secret. Relire les journaux et captures avant de les partager."
+  - type: input
+    id: build
+    attributes:
+      label: Version et build RAIL
+      description: Utiliser Help > Copy Report Info. Ne pas inclure le chemin du projet.
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Version et build Windows
+      description: Les lire dans Parametres Windows > Systeme > Informations systeme.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Etapes de reproduction
+      description: Numeroter les etapes ; un scenario n'est pas requis.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultat attendu
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Resultat observe
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: Reproductibilite
+      options: [Toujours, Parfois, Une seule fois, Pas encore reteste]
+    validations:
+      required: true
+  - type: textarea
+    id: addons
+    attributes:
+      label: Addons et contexte complementaire
+      description: Preciser les addons actifs et le resultat dans un projet neuf. Joindre uniquement des elements relus et non sensibles.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Informations publiques
+      options:
+        - label: J'ai relu ce ticket et ses pieces jointes pour retirer les contenus prives.
+          required: true

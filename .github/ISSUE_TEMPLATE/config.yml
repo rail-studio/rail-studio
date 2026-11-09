@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and suggestions / Questions et suggestions
+    url: https://github.com/rail-studio/rail-studio/discussions
+    about: Ask for help or discuss an idea. / Demander de l'aide ou proposer une idee.
+  - name: Confidential or security report / Signalement confidentiel
+    url: https://github.com/rail-studio/rail-studio/security/policy
+    about: Read the private-contact instructions before sending sensitive information.
