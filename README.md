@@ -8,15 +8,17 @@ This is the public support space for **RAIL Studio**, a free Windows application
 published by **KOMAGOMA**. RAIL connects screenplay writing, assets, story
 structure and production in a local film project.
 
-RAIL's first public beta is being prepared. **No public download is available
-here yet.** This repository contains support information, not the application's
-private source code. It does not make RAIL open source.
+**The public beta is available for Windows 11, 64-bit.**
+[Download RAIL](https://railstudio.org/en/download/) and read the
+[user manual](https://railstudio.org/en/documentation/).
+This repository hosts public support and official releases, not the application's
+private source code. RAIL is free to use, but not open source.
 
 ## Where to go
 
 - [Report a reproducible bug](https://github.com/rail-studio/rail-studio/issues/new/choose).
 - [Ask a question or suggest an improvement](https://github.com/rail-studio/rail-studio/discussions).
-- [Release notes](https://github.com/rail-studio/rail-studio/releases), when public versions are published.
+- [Release notes and official installers](https://github.com/rail-studio/rail-studio/releases).
 - [Contribution and triage guidelines](CONTRIBUTING.md).
 - [Confidential and security reports](SECURITY.md).
 
@@ -30,7 +32,7 @@ Issues, discussions and their attachments are public. Do not attach projects,
 scripts, recovery files, passwords, private keys or crash dumps. Review screenshots
 and logs before sharing them; they may reveal paths, names or private content.
 
-For a sensitive problem, first email **komagoma.infos@gmail.com** with a short
+For a sensitive problem, first email **contact@railstudio.org** with a short
 description and no sensitive attachment. KOMAGOMA will discuss what is needed
 privately. This address can change later; the current contact will remain here.
 
